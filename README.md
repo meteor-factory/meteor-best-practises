@@ -9,7 +9,7 @@ Languages of choice are CoffeeScript, LESS and HTML.
 
 ### LESS ###
 * Use import files e.g. `profile.import.less` whenever possible and import into a `main.less` file e.g. [meteor-starter](https://github.com/yogiben/meteor-starter/blob/master/client/style/main.less)
-Less files specific to a template should be placed in the same folder as the template named `template_name.import.less`
+* Less files specific to a template should be placed in the same folder as the template named `template_name.import.less`
 
 ### HTML ###
 * Templates should have `class="template-admin-dashboard"' on the top node. This is for styling and easily finding the right file.
