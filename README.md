@@ -13,7 +13,7 @@ Less files specific to a template should be placed in the same folder as the tem
 
 ### HTML ###
 * Templates should have `class="template-admin-dashboard"' on the top node. This is for styling and easily finding the right file.
-* {{> profile}} not {{>profile}}
+* `{{> profile}}` not `{{>profile}}`
 
 ## Project Structure ##
 Project structure is not fixed, but [meteor-starter](https://github.com/yogiben/meteor-starter) is a good example.
