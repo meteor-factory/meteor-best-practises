@@ -22,3 +22,8 @@ Project structure is not fixed, but [meteor-starter](https://github.com/yogiben/
 * Filenames and folder names `separated_with_underscore.json`
 * Code is always written in English e.g. #your-tab instead of #deine-tab
 * Links should only be hyphenated e.g. `/edit-profile` not `/editProfile` or `/edit_profile`
+
+## Git ##
+* Use Git flow, making feature branches and merging when ready
+* The default branch of the repo should be `develop`
+* When the app reaches production, `release` branches should be used
