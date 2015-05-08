@@ -28,3 +28,6 @@ Project structure is not fixed, but [meteor-starter](https://github.com/yogiben/
 * Use Git flow, making feature branches and merging when ready
 * The default branch of the repo should be `develop`
 * When the app reaches production, `release` branches should be used
+
+## Preferred Methodology ##
+Use AutoForm as much as possible
