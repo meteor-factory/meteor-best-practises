@@ -4,6 +4,8 @@ A guide for writing awesome Meteor apps
 ## Language ##
 Languages of choice are CoffeeScript, LESS and HTML.
 
+Use two spaces instead of tabs.
+
 ### CoffeeScript ###
 * [CoffeeScript style guide](https://github.com/polarmobile/coffeescript-style-guide)
 
