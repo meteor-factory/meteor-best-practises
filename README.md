@@ -16,7 +16,8 @@ Use two spaces instead of tabs.
 ### HTML ###
 * Templates should have `class="template-admin-dashboard"' on the top node. This is for styling and easily finding the right file.
 * `{{> profile}}` not `{{>profile}}`
-* Use `js-` e.g. `class="js-activate-account"` when a class is just used for a click event
+* Use `js-` e.g. `class="js-activate-account"` when a class is just used for a click event OR
+* Use `data-ACTION_NAME` e.g. `data-popup-message="Log in to do post a comment"`
 
 ## Project Structure ##
 Project structure is not fixed, but [meteor-starter](https://github.com/yogiben/meteor-starter) is a good example.
@@ -31,5 +32,6 @@ Project structure is not fixed, but [meteor-starter](https://github.com/yogiben/
 * The default branch of the repo should be `develop`
 * When the app reaches production, `release` branches should be used
 
-## Preferred Methodology ##
-Use AutoForm as much as possible
+## Preferred Approach / Packages ##
+* Typically try to use [Collection2](https://github.com/aldeed/meteor-collection2) to add a schema to data
+* Use [Collection Helpers](https://github.com/dburles/meteor-collection-helpers) and [Collection Hooks](https://github.com/matb33/meteor-collection-hooks)
